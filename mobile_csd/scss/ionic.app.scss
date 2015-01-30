@@ -21,3 +21,22 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 
+.usc-bar-stable {
+  background-color: #990000;
+  h1 {
+    color: #fff;
+  }
+
+}
+
+ul#navmenu {
+  list-style: none;
+  width: 100%;
+  font-size: 200%;
+  display: inline-block;
+  text-align: center;
+  li {
+    width: 25%;
+    float: left;
+  }
+}
